@@ -1,0 +1,55 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,300';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.3.2/css/simple-line-icons.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css';
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:300,700';
+
+* {
+    --cl1: #3F4E4F;
+    --cl2: #2C3639;
+    --cl3: #A27B5C;
+    --cl4: #DCD7C9;
+    --cl5: #f9dd94;
+}
+
+body {
+    background-color: var(--cl1);
+}
+
+.navbar {
+    background-color: var(--cl2);
+}
+
+.headingtext {
+    font-weight: 400;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+    padding-bottom: 8px;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: var(--cl3);
+}
+
+.currentpage {
+    color: var(--cl5);
+}
+
+.langflag {
+    width: 20px;
+    margin-top: -2.5px;
+}
+
+@media only screen and (max-width: 991px) {
+    .langflag {
+        margin-right: -9px;
+    }
+}
+
+.dnone {
+    display: none;
+}
