@@ -1,57 +1,59 @@
 <!DOCTYPE html>
 <html lang="hu">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../assets/js/i18n.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <meta name="theme-color" content="#2C3639" />
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/anim.css">
-    <title data-i18n-key="worktitle">Munkássága</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <meta name="theme-color" content="#2C3639" />
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/anim.css">
+        <link rel="shortcut icon" href="../assets/img/cpu.svg" type="image/x-icon">
+        <title>Munkássága</title>
+    </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-            <span class="navbar-brand">
-                <i class="bi bi-pc-display text-white"></i>
-                <span class="ms-2 text-white headingtext" data-i18n-key="neumannsworkheading">Neumann János - Munkásságai</span>
-            </span>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-pills-d" aria-controls="nav-pills-d" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
+    <body>
+        <!--Header-->
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <div class="collapse navbar-collapse" id="nav-pills-d">
-                    <ul class="nav nav-pills ms-auto">
-                        <li class="nav-item ms-3"><a href="../index.html" class="nav-link" data-i18n-key="home">Főoldal</a></li>
-                        <li class="nav-item"><a href="../eletrajz/index.html" class="nav-link"
-                                data-i18n-key="life">Életrajz</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link currentpage"
-                                data-i18n-key="work">Munkássága</a></li>
-                        <li class="nav-item ms-auto">
-                            <div class="ms-auto">
-                                <a onclick="langToEn()" href="#" id="enSwitch" class="nav-link">
-                                    <img src="../assets/img/eng_flag.png" alt="Angol" class="langflag">
+                <span class="navbar-brand">
+                    <i class="bi bi-pc-display text-white"></i>
+                    <span class="ms-2 text-white headingtext">Neumann János - Munkásságai</span>
+                </span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-pills-d"
+                    aria-controls="nav-pills-d" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="nav-pills-d">
+                        <ul class="nav nav-pills ms-auto">
+                            <li class="nav-item ms-3"><a href="../index.html" class="nav-link">Főoldal</a></li>
+                            <li class="nav-item"><a href="../eletrajz/index.html" class="nav-link">Életrajz</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link currentpage">Munkássága</a></li>
+                            <li class="nav-item"><a href="#sdesc" class="nav-link"> Short Description <img
+                                        src="../assets/img/eng_flag.png" alt="Angol" class="langflag">
                                 </a>
-                                <a onclick="langToHu()" href="#" id="huSwitch" class="nav-link dnone">
-                                    <img src="../assets/img/hun_flag.png" alt="Hungarian" class="langflag">
-                                </a>
-                            </div>
-                        </li>
-                    </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+        </nav>
+        <!--Content-->
+        <div class="content">
+            <section>
+            </section>
+            <section></section>
         </div>
-    </nav>
-    <script src="../assets/js/i18n.js"></script>
-</body>
+        <!--Footer-->
+        <footer class="footer">
+        </footer>
+    </body>
 
 </html>

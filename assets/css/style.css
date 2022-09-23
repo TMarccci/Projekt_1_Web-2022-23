@@ -9,6 +9,7 @@
     --cl3: #A27B5C;
     --cl4: #DCD7C9;
     --cl5: #f9dd94;
+    --cl6: #2c3935;
 }
 
 body {
@@ -44,12 +45,21 @@ body {
     margin-top: -2.5px;
 }
 
-@media only screen and (max-width: 991px) {
-    .langflag {
-        margin-right: -9px;
-    }
+.footer {
+    height: 200px;
 }
 
 .dnone {
     display: none;
+}
+
+.icons {
+    background-color: white;
+    padding: 10px 12px 10px 12px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.icon-pack {
+    padding-top: 20px;
 }
