@@ -10,10 +10,29 @@
     --cl4: #DCD7C9;
     --cl5: #f9dd94;
     --cl6: #2c3935;
+    --cl7: #363852;
+    --cl8: #4E6860;
 }
 
 body {
     background-color: var(--cl1);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--cl1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
 .navbar {
@@ -55,11 +74,24 @@ body {
 
 .icons {
     background-color: white;
-    padding: 10px 12px 10px 12px;
+    padding: 10px 14px 10px 14px;
     margin: 10px 10px 10px 10px;
     border-radius: 10px;
 }
 
 .icon-pack {
     padding-top: 20px;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.subhs {
+    font-weight: 400;
+}
+
+.content > section:nth-child(even) {
+    background-color: var(--cl6);
 }
