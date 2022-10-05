@@ -65,7 +65,7 @@ body {
 }
 
 .footer {
-    height: 200px;
+    background-color: var(--cl2);
 }
 
 .dnone {
