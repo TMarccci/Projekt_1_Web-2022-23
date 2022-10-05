@@ -1,66 +1,153 @@
 <!DOCTYPE html>
 <html lang="hu">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-            crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-        <meta name="theme-color" content="#2C3639" />
-        <link rel="stylesheet" href="../assets/css/style.css">
-        <link rel="stylesheet" href="../assets/css/anim.css">
-        <link rel="shortcut icon" href="../assets/img/cpu.svg" type="image/x-icon">
-        <title>Életrajz</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <meta name="theme-color" content="#2C3639" />
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/anim.css">
+    <link rel="shortcut icon" href="../assets/img/cpu.svg" type="image/x-icon">
+    <title>Életrajz</title>
+</head>
 
-    <body>
-        <!--Header-->
-        <nav class="navbar navbar-expand-lg navbar-dark">
+<body>
+    <!--Header-->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <span class="navbar-brand">
+                <i class="bi bi-pc-display text-white"></i>
+                <span class="ms-2 text-white headingtext">Neumann János - Életerajz</span>
+            </span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-pills-d"
+                aria-controls="nav-pills-d" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="container-fluid">
-                <span class="navbar-brand">
-                    <i class="bi bi-pc-display text-white"></i>
-                    <span class="ms-2 text-white headingtext">Neumann János - Életerajz</span>
-                </span>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-pills-d"
-                    aria-controls="nav-pills-d" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="container-fluid">
-                    <div class="collapse navbar-collapse" id="nav-pills-d">
-                        <ul class="nav nav-pills ms-auto">
-                            <li class="nav-item ms-3"><a href="../index.html" class="nav-link">Főoldal</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link currentpage">Életrajz</a></li>
-                            <li class="nav-item"><a href="../munkassagok/index.html" class="nav-link">Munkássága</a>
-                            </li>
-                            <li class="nav-item"><a href="#sdesc" class="nav-link"> Short Description <img
-                                        src="../assets/img/eng_flag.png" alt="Angol" class="langflag">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="collapse navbar-collapse" id="nav-pills-d">
+                    <ul class="nav nav-pills ms-auto">
+                        <li class="nav-item ms-3"><a href="../index.html" class="nav-link">Főoldal</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link currentpage">Életrajz</a></li>
+                        <li class="nav-item"><a href="../munkassagok/index.html" class="nav-link">Munkássága</a>
+                        </li>
+                        <li class="nav-item"><a href="#sdesc" class="nav-link"> Short Description <img
+                                    src="../assets/img/eng_flag.png" alt="Angol" class="langflag">
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </nav>
-        <!--Content-->
-        <div class="content">
-            <section>
-            </section>
-            <section></section>
         </div>
-        <!--Footer-->
-        <footer class="footer">
-            
-            <div class="py-3 text-white text-center">
-                <p class="my-1">Projekt_Web_1-2022-23</p>
-                <p class="my-1">Kiss Dominik, Tihanyi Marcell</p>
-            </div>
+    </nav>
+    <!--Content-->
+    <div class="content">
+        <section class="row mt-3 px-3 py-4 text-white">
+            <div class="col-sm-12 col-md-9">
+                <div class="d-flex my-4">
+                    <span class="icons text-black"><i class="bi bi-hospital">
+                        </i></span>
+                    <h3 id="szuletese, csaladja" class="subhs my-auto">Születése, családja</h3>
+                </div>
+                <div class="row">
+                    <p>
+                        1903. december 28-án született Budapesten. Apja Neumann Miksa Budapesten ügyvédként dolgozott,
+                        majd a Magyar Jelzálog- és Hitelbank igazgatói székébe került. Anyja Kann Margit a háztartást
+                        vezette és fiai nevelésével foglalkozott. Két öccse született, Mihály és Miklós.
+                    </p>
 
-        </footer>
-    </body>
+                    <p>Neumann Miksa, 1913-ban magyar nemességet valamint a "margittai” nemesi előnevet szerezte meg
+                        adománykén I. Ferenc József magyar királytól. Ezáltal leszármazottjai jogosulttá váltak ennek a
+                        nemesi előnévnek a használatára. Fia, Neumann János így lett hivatalosan "margittai Neumann
+                        János", aki későbbi külföldi tartózkodása idején vette fel először a Johann von Neumann, majd
+                        később a John von Neumann nevet, a világ nagyobbik részén ma is így ismerik.
+                    </p>
+
+                    <p>
+                        1935-ben Kövesi Mariettától, első feleségétől megszületett Marina nevű lánya, aki híres
+                        közgazdász Amerikában. Miután elvált, 1938. november 17-én Budapesten, a Terézvárosban feleségül
+                        vette Dán Klárát
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <h5 class="my-4">Neumann gyerekként</h5>
+                <img src="../assets/img/eletrajz/neumann_gyerek.png" alt="neu_gyerekként"
+                    class="img-fluid img-thumbnail thumbimgs w-75 d-block mx-auto">
+            </div>
+        </section>
+        <section class="row mt-3 px-3 py-4 text-white">
+            <div class="col-sm-12 col-md-3">
+                <h5 class="my-4">Neumann arcképe</h5>
+                <img class="img-fluid img-thumbnail thumbimgs w-75 d-block mx-auto"
+                    src="../assets/img/eletrajz/neumann_arckep.jpg" alt="arcképe">
+            </div>
+            <div class="col-sm-12 col-md-9">
+                <div class="d-flex my-4">
+                    <span class="icons text-black"><i class="bi bi-circle"></i></span>
+                    <h3 id="hattere" class="subhs my-auto">Háttere</h3>
+                </div>
+                <div class="row">
+                    <p>A Neumann család ingergazdag szellemi légkört teremtett a gyermekek számára, a gyakori
+                        beszélgetések nem kizárólag tudományról zajlottak, nem volt ritka a zenei, színházi vagy
+                        irodalmi téma. A gyerekek már fiatalon németül és franciául is tanultak nevelőnőiktől.</p>
+                    <p>Ugyancsak mindennapos volt a vendégség a háznál, jöttek külföldiek és magyarok egyaránt. A hazai
+                        szellemi elit képviselői is tiszteletüket tették Neumannéknál, például Ortvay Rudolf, a
+                        budapesti tudományegyetem elméleti fizikai intézetének igazgatója és Fejér Lipót
+                        matematikaprofesszor.</p>
+                    <p>Neumann már korán jóval meghaladta kortásai képességeit. A magyar anyanyelve, a francia és a
+                        német nyelvek mellett tanulta a latint és az ógörögöt is. Emlékezőtehetsége szinte fotografikus
+                        volt, és fejszámolásban is rendkívüli eredményeket mutatott fel. Ez utóbbi képessége
+                        felnőttkorában szinte védjegyévé vált. Legenda járt arról, hogy a korai elektronikus
+                        számológépek számításait ő maga ellenőrizte fejben a gépekével azonos sebességgel. Hasonlóan
+                        legendás volt emlékezőtehetsége. Élete végéig görögül idézett Thuküdidészből, és franciául
+                        Voltaire-ből.</p>
+                </div>
+            </div>
+        </section>
+        <section class="row mt-3 px-3 py-4 text-white">
+            <div class="col-sm-12 col-md-9">
+                <div class="d-flex my-4">
+                    <span class="icons text-black"><i class="bi bi-book">
+                        </i></span>
+                    <h3 id="iskolai" class="subhs my-auto">Iskolái</h3>
+                </div>
+                <div class="row">
+                    <p>Neumann már tízéves kora előtt csodagyereknek számított, majd 1913-ban szülei beíratták a híres
+                        fasori evangélikus főgimnáziumba Ebbe az iskolába járt a Nobel-díjas Wigner Jenő és Harsányi
+                        János is, ahol mindhárman Rátz László tanár úrtól tanulták a matematikát. </p>
+                    <p>1921-ben Neumann beiratkozott a Budapesti Tudományegyetem matematika szakára. Egyetemi évei alatt
+                        sokat tartózkodott Berlinben, ahol Fritz Habernél kémiát, Albert Einsteinnél statisztikus
+                        mechanikát és Erhardt Schmidtnél matematikát hallgatott. Berlinben szorosra fűzte kapcsolatát
+                        Wignerrel, Szilárd Leóval és Gábor Dénessel. Apja kívánságára Neumann 1923-ban Zürichbe ment,
+                        hogy a Zürichi Műszaki Egyetemen vegyészetet tanuljon. Vegyészmérnöki diplomáját 1925-ben
+                        szerezte, matematikából pedig egy évvel később doktorált Budapesten. 1928-as cikkében Neumann
+                        megfogalmazta a kétszemélyes nullaösszegű nem kooperatív játék egyensúlyát, és megfelelő
+                        feltevések mellett igazolta az egyensúly létezését.</p>
+                    <p></p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <h5 class="my-4"></h5>
+                <img src="../assets/img/eletrajz/elte.jpg" alt="elte" class="img-fluid img-thumbnail thumbimgs w-75 d-block mx-auto">
+            </div>
+        </section>
+    </div>
+    <!--Footer-->
+    <footer class="footer">
+
+        <div class="py-3 text-white text-center">
+            <p class="my-1">Projekt_Web_1-2022-23</p>
+            <p class="my-1">Kiss Dominik, Tihanyi Marcell</p>
+        </div>
+
+    </footer>
+</body>
 
 </html>
