@@ -95,3 +95,11 @@ body {
 .content > section:nth-child(even) {
     background-color: var(--cl6);
 }
+
+#lineafterparagraph1, #lineafterparagraph2 {
+    margin-bottom: 30px;
+}
+
+#neuelvek {
+    text-indent: 10px;
+}
