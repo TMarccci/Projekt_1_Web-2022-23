@@ -103,3 +103,22 @@ body {
 #neuelvek {
     text-indent: 10px;
 }
+
+#kepcaro1, #kepcaro2, #kepcaro3 {
+    height: 31vh !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#kepcaro1 {
+    background-image: url(../img/fooldal/Carousel2.png);
+}
+
+#kepcaro2 {
+    background-image: url(../img/fooldal/Carousel.png);
+}
+
+#kepcaro3 {
+    background-image: url(../img/fooldal/Carousel1.png);
+}
