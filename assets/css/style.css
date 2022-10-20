@@ -122,3 +122,17 @@ body {
 #kepcaro3 {
     background-image: url(../img/fooldal/Carousel1.png);
 }
+
+#sourceimg1, #sourceimg2 {
+    height: 60px;
+}
+
+.sourcespan {
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.cardtexts {
+    margin-top: 12px;
+}
